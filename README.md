@@ -42,6 +42,39 @@ so they're directly comparable.
 | `simulate_rule` | Dry-run a candidate rule against historical transactions before deploying it |
 | `migrate_legacy_rule` | Deterministically convert legacy COBOL-style rule text into the modern rule format |
 
+## Tool flow
+
+How the 7 tools connect: three ways to author a rule, one governance gate, and one
+evaluation loop that everything else supports.
+
+```mermaid
+flowchart LR
+    DSL[Human-written DSL string] --> CR([create_rule])
+    NL[Natural-language instruction] --> GEN([generate_rule_from_text])
+    LEGACY[Legacy COBOL-style rule text] --> MIG([migrate_legacy_rule])
+
+    CR --> ACTIVE{{ACTIVE rule}}
+    GEN --> PENDING{{PENDING_APPROVAL}}
+    MIG --> PENDING
+    PENDING -->|human reviews| APR([approve_rule]) --> ACTIVE
+
+    CAND[Candidate condition] --> SIM([simulate_rule])
+    SIM -->|impact report informs| CR
+
+    TXN[Incoming transaction] --> EVAL([evaluate_transaction])
+    ACTIVE -.->|checked against| EVAL
+    EVAL --> DECISION[/DECLINE, REVIEW, or APPROVE/]
+    EVAL --> HIST[(evaluations table)]
+    HIST --> EXP([explain_decision]) --> WHY[Human-readable explanation]
+```
+
+Only `create_rule` puts a rule live immediately — a human wrote it. Rules from
+`generate_rule_from_text` or `migrate_legacy_rule` always land as `PENDING_APPROVAL`
+and need `approve_rule` before `evaluate_transaction` will ever consider them.
+`simulate_rule` never touches this state machine at all: it tests a condition against
+300 historical transactions without storing anything, so a rule's real-world impact
+is known *before* it's authored for real.
+
 ## Quick start (Python implementation)
 
 ```bash
