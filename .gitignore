@@ -1,0 +1,24 @@
+# Private interview-prep notes -- not for the public repo
+fraud mcp application this job description.docx
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Env / secrets
+.env
+*.env
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java (for the upcoming Spring Boot version)
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar

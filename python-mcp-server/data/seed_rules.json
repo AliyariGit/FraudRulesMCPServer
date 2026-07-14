@@ -1,0 +1,32 @@
+[
+  {
+    "name": "High International Transfer",
+    "condition_dsl": "amount > 5000 AND country != customer.country",
+    "action": "HIGH_RISK",
+    "priority": 10
+  },
+  {
+    "name": "Crypto High Device Risk",
+    "condition_dsl": "deviceRisk == HIGH AND merchant == CryptoExchange",
+    "action": "DECLINE",
+    "priority": 5
+  },
+  {
+    "name": "Young Customer Large Amount",
+    "condition_dsl": "customerAge < 25 AND amount > 10000",
+    "action": "REVIEW",
+    "priority": 20
+  },
+  {
+    "name": "Very High Amount",
+    "condition_dsl": "amount > 20000",
+    "action": "DECLINE",
+    "priority": 1
+  },
+  {
+    "name": "High Risk Device Moderate Amount",
+    "condition_dsl": "deviceRisk == HIGH AND amount > 3000",
+    "action": "ALERT",
+    "priority": 30
+  }
+]

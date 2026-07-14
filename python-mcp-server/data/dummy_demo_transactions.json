@@ -1,0 +1,74 @@
+[
+  {
+    "transactionId": "TX-DEMO-001",
+    "amount": 42.50,
+    "country": "CA",
+    "merchant": "GroceryStore",
+    "customerAge": 34,
+    "deviceRisk": "LOW",
+    "customer": {"country": "CA"}
+  },
+  {
+    "transactionId": "TX-DEMO-002",
+    "amount": 8500,
+    "country": "CA",
+    "merchant": "CryptoExchange",
+    "customerAge": 22,
+    "deviceRisk": "HIGH",
+    "customer": {"country": "US"}
+  },
+  {
+    "transactionId": "TX-DEMO-003",
+    "amount": 15000,
+    "country": "GB",
+    "merchant": "Electronics",
+    "customerAge": 20,
+    "deviceRisk": "MEDIUM",
+    "customer": {"country": "GB"}
+  },
+  {
+    "transactionId": "TX-DEMO-004",
+    "amount": 25500,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 45,
+    "deviceRisk": "LOW",
+    "customer": {"country": "NG"}
+  },
+  {
+    "transactionId": "TX-DEMO-005",
+    "amount": 3200,
+    "country": "FR",
+    "merchant": "Airline",
+    "customerAge": 29,
+    "deviceRisk": "HIGH",
+    "customer": {"country": "FR"}
+  },
+  {
+    "transactionId": "TX-DEMO-006",
+    "amount": 6800,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 51,
+    "deviceRisk": "LOW",
+    "customer": {"country": "DE"}
+  },
+  {
+    "transactionId": "TX-DEMO-007",
+    "amount": 120,
+    "country": "US",
+    "merchant": "OnlineRetail",
+    "customerAge": 60,
+    "deviceRisk": "LOW",
+    "customer": {"country": "US"}
+  },
+  {
+    "transactionId": "TX-DEMO-008",
+    "amount": 9800,
+    "country": "IN",
+    "merchant": "CryptoExchange",
+    "customerAge": 19,
+    "deviceRisk": "HIGH",
+    "customer": {"country": "IN"}
+  }
+]
