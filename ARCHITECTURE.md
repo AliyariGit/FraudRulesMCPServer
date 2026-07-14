@@ -168,3 +168,58 @@ python-mcp-server/
   tests/               pytest: DSL parsing, engine scoring, migration, tools, mocked LLM call
   client_smoke_test.py  drives all 7 tools over real MCP stdio, for end-to-end verification
 ```
+
+## Directory layout (Java implementation)
+
+```
+java-mcp-server/
+  src/main/java/com/frauddemo/fraudmcp/
+    FraudMcpServerApplication.java   single @SpringBootApplication; behavior toggled by profile
+    engine/          ConditionNode, ConditionDslParser, ConditionTreeEvaluator, RuleEngine,
+                     SimulationService -- ports of rules/*.py, same JSON condition-tree shape
+    migration/       LegacyRuleMigrator -- port of legacy_migration.py
+    model/           domain DTOs (Rule, EvaluationResult, Transaction, SimulationReport,
+                     ExplanationResult) + JPA entities (RuleEntity, EvaluationEntity)
+    repository/      RuleJpaRepository, EvaluationJpaRepository, RuleDataService (facade,
+                     mirrors database/repo.py -- the only class that talks Spring Data JPA)
+    llm/             AnthropicRuleGenerator, RuleDraft/ConditionNodeDraft/ConditionValueDraft
+                     (strict-typed LLM structured-output schema, see note below)
+    mcp/             FraudRuleTools -- the 7 @McpTool-annotated methods, auto-registered by
+                     spring-ai-starter-mcp-server
+    web/             FraudRuleController (REST facade) + DashboardController/DashboardHtml
+    config/          JacksonConfig (see note below)
+  src/main/resources/
+    application.properties          default profile: web server + REST/dashboard
+    application-stdio.properties    stdio profile: web server off, console logging off
+    db/migration/    V1__init.sql (schema), V2__seed_rules.sql (5 starter rules)
+    data/synthetic_transactions.json  same fixture file as the Python side, for parity
+  docker-compose.yml  Postgres on port 5433 (Python's is 5432 -- both can run simultaneously)
+```
+
+### Java-specific implementation notes
+
+A few genuine surprises surfaced building the Spring Boot 4 / Spring AI 2.0 version that are
+worth calling out (both fixed and verified working):
+
+- **Two Jackson majors coexist on the classpath.** Spring Boot 4 switched its own JSON engine
+  to Jackson 3 (`tools.jackson.*`), while the MCP SDK and Anthropic SDK still depend on classic
+  Jackson 2 (`com.fasterxml.jackson.*`). No `com.fasterxml.jackson.databind.ObjectMapper` bean is
+  auto-configured anymore -- `config/JacksonConfig` provides one explicitly for our own code
+  (`Transaction.toMap`, `SimulationService`'s fixture loading).
+- **`spring-ai-mcp-annotations` and `anthropic-java-core` need different major versions of
+  `com.github.victools:jsonschema-generator`** (5.x vs 4.x) for their own internal reflective
+  schema derivation. Maven can only resolve one version, and each library's compiled bytecode
+  calls a method signature only its own major version has -- pinning either version breaks the
+  other. `AnthropicRuleGenerator` sidesteps this entirely by hand-writing the JSON schema for
+  `RuleDraft`/`ConditionNodeDraft`/`ConditionValueDraft` and passing it via the raw
+  `OutputConfig`/`JsonOutputFormat` API instead of the SDK's `outputConfig(Class<T>)`
+  auto-derivation, which is what actually invokes the conflicting code path.
+- **Jackson bean-property inference bites nullable boolean predicates.** `ConditionNode` briefly
+  had `isLeaf()`/`isCombinator()` helper methods; Jackson's default bean introspection treats
+  `isXxx()` as a getter for a property named `xxx`, so Hibernate's JSON round-trip (which
+  serializes then deserializes to deep-copy JSONB-typed fields) wrote out a `"leaf"` field
+  nothing could read back in. Removed as dead code rather than annotated around, since nothing
+  used them.
+- **`TestRestTemplate` needs a module Boot 4's test starter doesn't pull in by default**
+  (`spring-boot-restclient`, for `RestTemplateBuilder`). The integration test uses `MockMvc`
+  instead, which doesn't have this gap and is the more common choice for controller tests anyway.

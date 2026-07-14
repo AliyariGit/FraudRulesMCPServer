@@ -1,0 +1,3602 @@
+[
+  {
+    "transactionId": "TX100000",
+    "amount": 79.91,
+    "country": "US",
+    "merchant": "Electronics",
+    "customerAge": 65,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100001",
+    "amount": 265.38,
+    "country": "FR",
+    "merchant": "CryptoExchange",
+    "customerAge": 31,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100002",
+    "amount": 8175.59,
+    "country": "IN",
+    "merchant": "CryptoExchange",
+    "customerAge": 32,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100003",
+    "amount": 2277.63,
+    "country": "GB",
+    "merchant": "GroceryStore",
+    "customerAge": 35,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100004",
+    "amount": 311.12,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 40,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100005",
+    "amount": 1611.0,
+    "country": "DE",
+    "merchant": "Restaurant",
+    "customerAge": 53,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100006",
+    "amount": 2585.81,
+    "country": "FR",
+    "merchant": "Airline",
+    "customerAge": 20,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100007",
+    "amount": 2566.68,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 47,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100008",
+    "amount": 2012.17,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 22,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100009",
+    "amount": 1389.47,
+    "country": "FR",
+    "merchant": "Electronics",
+    "customerAge": 62,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100010",
+    "amount": 2329.12,
+    "country": "NG",
+    "merchant": "Electronics",
+    "customerAge": 38,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100011",
+    "amount": 2829.01,
+    "country": "IN",
+    "merchant": "Restaurant",
+    "customerAge": 59,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100012",
+    "amount": 1379.26,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 53,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100013",
+    "amount": 1752.68,
+    "country": "IN",
+    "merchant": "Electronics",
+    "customerAge": 26,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100014",
+    "amount": 6302.63,
+    "country": "US",
+    "merchant": "CryptoExchange",
+    "customerAge": 45,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100015",
+    "amount": 1589.7,
+    "country": "US",
+    "merchant": "Restaurant",
+    "customerAge": 18,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100016",
+    "amount": 804.14,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 45,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100017",
+    "amount": 2628.18,
+    "country": "US",
+    "merchant": "Electronics",
+    "customerAge": 29,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100018",
+    "amount": 1918.65,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 66,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100019",
+    "amount": 1593.41,
+    "country": "DE",
+    "merchant": "GroceryStore",
+    "customerAge": 19,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100020",
+    "amount": 726.41,
+    "country": "IN",
+    "merchant": "Airline",
+    "customerAge": 64,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100021",
+    "amount": 1600.45,
+    "country": "GB",
+    "merchant": "GroceryStore",
+    "customerAge": 53,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100022",
+    "amount": 1272.3,
+    "country": "FR",
+    "merchant": "GroceryStore",
+    "customerAge": 64,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100023",
+    "amount": 2016.7,
+    "country": "US",
+    "merchant": "Electronics",
+    "customerAge": 46,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100024",
+    "amount": 4441.72,
+    "country": "US",
+    "merchant": "CryptoExchange",
+    "customerAge": 18,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100025",
+    "amount": 5415.41,
+    "country": "FR",
+    "merchant": "GroceryStore",
+    "customerAge": 50,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100026",
+    "amount": 401.27,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 48,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100027",
+    "amount": 575.28,
+    "country": "NG",
+    "merchant": "GroceryStore",
+    "customerAge": 45,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100028",
+    "amount": 2021.73,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 43,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100029",
+    "amount": 8023.39,
+    "country": "DE",
+    "merchant": "CryptoExchange",
+    "customerAge": 29,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100030",
+    "amount": 1332.18,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 21,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100031",
+    "amount": 1459.5,
+    "country": "GB",
+    "merchant": "GroceryStore",
+    "customerAge": 21,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100032",
+    "amount": 799.28,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 45,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100033",
+    "amount": 2906.28,
+    "country": "BR",
+    "merchant": "Airline",
+    "customerAge": 65,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100034",
+    "amount": 1511.04,
+    "country": "US",
+    "merchant": "Restaurant",
+    "customerAge": 50,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100035",
+    "amount": 5427.18,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 54,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100036",
+    "amount": 1260.58,
+    "country": "FR",
+    "merchant": "Airline",
+    "customerAge": 34,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100037",
+    "amount": 800.52,
+    "country": "US",
+    "merchant": "GroceryStore",
+    "customerAge": 47,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100038",
+    "amount": 17044.34,
+    "country": "FR",
+    "merchant": "CryptoExchange",
+    "customerAge": 52,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100039",
+    "amount": 2643.19,
+    "country": "IN",
+    "merchant": "Restaurant",
+    "customerAge": 28,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100040",
+    "amount": 1836.97,
+    "country": "US",
+    "merchant": "Restaurant",
+    "customerAge": 18,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100041",
+    "amount": 407.2,
+    "country": "GB",
+    "merchant": "GroceryStore",
+    "customerAge": 53,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100042",
+    "amount": 2154.25,
+    "country": "IN",
+    "merchant": "GroceryStore",
+    "customerAge": 34,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100043",
+    "amount": 157.14,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 20,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100044",
+    "amount": 24575.76,
+    "country": "CA",
+    "merchant": "Electronics",
+    "customerAge": 45,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100045",
+    "amount": 1639.04,
+    "country": "NG",
+    "merchant": "Restaurant",
+    "customerAge": 27,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100046",
+    "amount": 2697.45,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 75,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100047",
+    "amount": 312.87,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 44,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100048",
+    "amount": 2928.74,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 19,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100049",
+    "amount": 2792.79,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 69,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100050",
+    "amount": 328.75,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 32,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100051",
+    "amount": 919.05,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 19,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100052",
+    "amount": 212.92,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 50,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100053",
+    "amount": 996.79,
+    "country": "GB",
+    "merchant": "GroceryStore",
+    "customerAge": 34,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100054",
+    "amount": 119.58,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 68,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100055",
+    "amount": 351.36,
+    "country": "NG",
+    "merchant": "Restaurant",
+    "customerAge": 20,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100056",
+    "amount": 1617.66,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 60,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100057",
+    "amount": 17948.99,
+    "country": "DE",
+    "merchant": "CryptoExchange",
+    "customerAge": 25,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100058",
+    "amount": 1210.19,
+    "country": "NG",
+    "merchant": "Electronics",
+    "customerAge": 44,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100059",
+    "amount": 1848.47,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 18,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100060",
+    "amount": 1742.05,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 46,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100061",
+    "amount": 2879.7,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 36,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100062",
+    "amount": 708.43,
+    "country": "CA",
+    "merchant": "Electronics",
+    "customerAge": 27,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100063",
+    "amount": 1835.77,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 74,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100064",
+    "amount": 1201.96,
+    "country": "US",
+    "merchant": "GroceryStore",
+    "customerAge": 75,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100065",
+    "amount": 2413.31,
+    "country": "US",
+    "merchant": "OnlineRetail",
+    "customerAge": 53,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100066",
+    "amount": 2405.24,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 56,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100067",
+    "amount": 2159.23,
+    "country": "IN",
+    "merchant": "Airline",
+    "customerAge": 53,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100068",
+    "amount": 1426.65,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 58,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100069",
+    "amount": 1882.11,
+    "country": "FR",
+    "merchant": "Electronics",
+    "customerAge": 36,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100070",
+    "amount": 1622.76,
+    "country": "GB",
+    "merchant": "GroceryStore",
+    "customerAge": 62,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100071",
+    "amount": 12559.59,
+    "country": "NG",
+    "merchant": "CryptoExchange",
+    "customerAge": 31,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100072",
+    "amount": 2088.09,
+    "country": "IN",
+    "merchant": "Restaurant",
+    "customerAge": 42,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100073",
+    "amount": 2261.66,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 44,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100074",
+    "amount": 1459.5,
+    "country": "NG",
+    "merchant": "Electronics",
+    "customerAge": 69,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100075",
+    "amount": 2759.03,
+    "country": "CA",
+    "merchant": "Restaurant",
+    "customerAge": 43,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100076",
+    "amount": 2601.22,
+    "country": "FR",
+    "merchant": "GroceryStore",
+    "customerAge": 38,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100077",
+    "amount": 2639.52,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 44,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100078",
+    "amount": 2248.33,
+    "country": "US",
+    "merchant": "GroceryStore",
+    "customerAge": 32,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100079",
+    "amount": 2263.93,
+    "country": "GB",
+    "merchant": "Restaurant",
+    "customerAge": 19,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100080",
+    "amount": 347.6,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 34,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100081",
+    "amount": 2245.04,
+    "country": "US",
+    "merchant": "GroceryStore",
+    "customerAge": 37,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100082",
+    "amount": 1729.51,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 63,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100083",
+    "amount": 1883.59,
+    "country": "US",
+    "merchant": "GroceryStore",
+    "customerAge": 72,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100084",
+    "amount": 128.0,
+    "country": "BR",
+    "merchant": "Airline",
+    "customerAge": 22,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100085",
+    "amount": 1473.15,
+    "country": "IN",
+    "merchant": "CryptoExchange",
+    "customerAge": 75,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100086",
+    "amount": 2202.72,
+    "country": "IN",
+    "merchant": "Restaurant",
+    "customerAge": 69,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100087",
+    "amount": 1779.46,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 23,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100088",
+    "amount": 1396.8,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 19,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100089",
+    "amount": 640.3,
+    "country": "DE",
+    "merchant": "OnlineRetail",
+    "customerAge": 74,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100090",
+    "amount": 577.21,
+    "country": "FR",
+    "merchant": "Electronics",
+    "customerAge": 53,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100091",
+    "amount": 1475.01,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 32,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100092",
+    "amount": 1746.76,
+    "country": "BR",
+    "merchant": "Airline",
+    "customerAge": 45,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100093",
+    "amount": 923.34,
+    "country": "US",
+    "merchant": "Electronics",
+    "customerAge": 38,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100094",
+    "amount": 2072.04,
+    "country": "FR",
+    "merchant": "GroceryStore",
+    "customerAge": 35,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100095",
+    "amount": 1085.84,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 26,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100096",
+    "amount": 10134.87,
+    "country": "US",
+    "merchant": "Restaurant",
+    "customerAge": 49,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100097",
+    "amount": 1410.84,
+    "country": "IN",
+    "merchant": "CryptoExchange",
+    "customerAge": 21,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100098",
+    "amount": 5372.21,
+    "country": "GB",
+    "merchant": "CryptoExchange",
+    "customerAge": 21,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100099",
+    "amount": 260.12,
+    "country": "FR",
+    "merchant": "Electronics",
+    "customerAge": 44,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100100",
+    "amount": 2725.97,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 45,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100101",
+    "amount": 24162.28,
+    "country": "FR",
+    "merchant": "Electronics",
+    "customerAge": 58,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100102",
+    "amount": 525.57,
+    "country": "IN",
+    "merchant": "GroceryStore",
+    "customerAge": 46,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100103",
+    "amount": 2122.33,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 61,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100104",
+    "amount": 1635.96,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 70,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100105",
+    "amount": 926.3,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 36,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100106",
+    "amount": 2100.7,
+    "country": "IN",
+    "merchant": "Restaurant",
+    "customerAge": 49,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100107",
+    "amount": 13072.6,
+    "country": "FR",
+    "merchant": "CryptoExchange",
+    "customerAge": 23,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100108",
+    "amount": 1727.72,
+    "country": "DE",
+    "merchant": "Restaurant",
+    "customerAge": 61,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100109",
+    "amount": 529.7,
+    "country": "NG",
+    "merchant": "Airline",
+    "customerAge": 35,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100110",
+    "amount": 1477.72,
+    "country": "BR",
+    "merchant": "GroceryStore",
+    "customerAge": 39,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100111",
+    "amount": 992.76,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 43,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100112",
+    "amount": 973.2,
+    "country": "CA",
+    "merchant": "Restaurant",
+    "customerAge": 50,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100113",
+    "amount": 1242.68,
+    "country": "IN",
+    "merchant": "GroceryStore",
+    "customerAge": 66,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100114",
+    "amount": 614.66,
+    "country": "IN",
+    "merchant": "Airline",
+    "customerAge": 46,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100115",
+    "amount": 1828.57,
+    "country": "CA",
+    "merchant": "Electronics",
+    "customerAge": 53,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100116",
+    "amount": 24837.4,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 25,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100117",
+    "amount": 2117.71,
+    "country": "FR",
+    "merchant": "CryptoExchange",
+    "customerAge": 48,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100118",
+    "amount": 8002.82,
+    "country": "US",
+    "merchant": "CryptoExchange",
+    "customerAge": 26,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100119",
+    "amount": 1022.93,
+    "country": "DE",
+    "merchant": "OnlineRetail",
+    "customerAge": 18,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100120",
+    "amount": 1741.87,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 46,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100121",
+    "amount": 1632.57,
+    "country": "FR",
+    "merchant": "Airline",
+    "customerAge": 30,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100122",
+    "amount": 2327.76,
+    "country": "NG",
+    "merchant": "GroceryStore",
+    "customerAge": 63,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100123",
+    "amount": 2463.14,
+    "country": "GB",
+    "merchant": "Restaurant",
+    "customerAge": 20,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100124",
+    "amount": 2609.75,
+    "country": "IN",
+    "merchant": "Restaurant",
+    "customerAge": 51,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100125",
+    "amount": 22289.59,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 34,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100126",
+    "amount": 245.54,
+    "country": "IN",
+    "merchant": "Electronics",
+    "customerAge": 52,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100127",
+    "amount": 112.52,
+    "country": "FR",
+    "merchant": "GroceryStore",
+    "customerAge": 36,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100128",
+    "amount": 299.84,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 46,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100129",
+    "amount": 142.74,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 41,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100130",
+    "amount": 1699.95,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 23,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100131",
+    "amount": 2738.92,
+    "country": "IN",
+    "merchant": "GroceryStore",
+    "customerAge": 34,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100132",
+    "amount": 20897.29,
+    "country": "US",
+    "merchant": "OnlineRetail",
+    "customerAge": 28,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100133",
+    "amount": 900.97,
+    "country": "DE",
+    "merchant": "Restaurant",
+    "customerAge": 47,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100134",
+    "amount": 1452.21,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 54,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100135",
+    "amount": 21430.79,
+    "country": "IN",
+    "merchant": "CryptoExchange",
+    "customerAge": 21,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100136",
+    "amount": 2328.34,
+    "country": "FR",
+    "merchant": "Electronics",
+    "customerAge": 32,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100137",
+    "amount": 2164.18,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 58,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100138",
+    "amount": 1325.27,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 23,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100139",
+    "amount": 606.38,
+    "country": "DE",
+    "merchant": "OnlineRetail",
+    "customerAge": 41,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100140",
+    "amount": 2474.95,
+    "country": "BR",
+    "merchant": "Airline",
+    "customerAge": 65,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100141",
+    "amount": 230.52,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 61,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100142",
+    "amount": 12286.07,
+    "country": "DE",
+    "merchant": "CryptoExchange",
+    "customerAge": 41,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100143",
+    "amount": 1117.56,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 57,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100144",
+    "amount": 1908.03,
+    "country": "NG",
+    "merchant": "Airline",
+    "customerAge": 59,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100145",
+    "amount": 4781.45,
+    "country": "GB",
+    "merchant": "Restaurant",
+    "customerAge": 33,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100146",
+    "amount": 2230.7,
+    "country": "GB",
+    "merchant": "Restaurant",
+    "customerAge": 65,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100147",
+    "amount": 2501.91,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 35,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100148",
+    "amount": 1336.86,
+    "country": "BR",
+    "merchant": "Electronics",
+    "customerAge": 61,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100149",
+    "amount": 1079.23,
+    "country": "IN",
+    "merchant": "Electronics",
+    "customerAge": 25,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100150",
+    "amount": 1920.28,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 39,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100151",
+    "amount": 20068.3,
+    "country": "BR",
+    "merchant": "CryptoExchange",
+    "customerAge": 32,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100152",
+    "amount": 1789.96,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 26,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100153",
+    "amount": 22195.41,
+    "country": "BR",
+    "merchant": "Electronics",
+    "customerAge": 33,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100154",
+    "amount": 19576.08,
+    "country": "IN",
+    "merchant": "CryptoExchange",
+    "customerAge": 48,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100155",
+    "amount": 331.62,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 20,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100156",
+    "amount": 187.17,
+    "country": "US",
+    "merchant": "Airline",
+    "customerAge": 61,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100157",
+    "amount": 225.1,
+    "country": "GB",
+    "merchant": "GroceryStore",
+    "customerAge": 22,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100158",
+    "amount": 1647.33,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 51,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100159",
+    "amount": 302.04,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 59,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100160",
+    "amount": 1244.37,
+    "country": "US",
+    "merchant": "Restaurant",
+    "customerAge": 64,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100161",
+    "amount": 768.39,
+    "country": "US",
+    "merchant": "Restaurant",
+    "customerAge": 48,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100162",
+    "amount": 13069.41,
+    "country": "CA",
+    "merchant": "Airline",
+    "customerAge": 26,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100163",
+    "amount": 2011.69,
+    "country": "NG",
+    "merchant": "CryptoExchange",
+    "customerAge": 66,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100164",
+    "amount": 2905.35,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 54,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100165",
+    "amount": 2542.59,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 25,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100166",
+    "amount": 2536.24,
+    "country": "CA",
+    "merchant": "Restaurant",
+    "customerAge": 57,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100167",
+    "amount": 2081.95,
+    "country": "BR",
+    "merchant": "GroceryStore",
+    "customerAge": 66,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100168",
+    "amount": 22267.12,
+    "country": "CA",
+    "merchant": "CryptoExchange",
+    "customerAge": 27,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100169",
+    "amount": 1262.4,
+    "country": "BR",
+    "merchant": "Electronics",
+    "customerAge": 64,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100170",
+    "amount": 259.45,
+    "country": "CA",
+    "merchant": "GroceryStore",
+    "customerAge": 57,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100171",
+    "amount": 1987.51,
+    "country": "FR",
+    "merchant": "Airline",
+    "customerAge": 35,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100172",
+    "amount": 13028.19,
+    "country": "DE",
+    "merchant": "CryptoExchange",
+    "customerAge": 49,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100173",
+    "amount": 169.07,
+    "country": "GB",
+    "merchant": "GroceryStore",
+    "customerAge": 67,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100174",
+    "amount": 364.35,
+    "country": "NG",
+    "merchant": "Airline",
+    "customerAge": 26,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100175",
+    "amount": 1678.38,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 43,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100176",
+    "amount": 238.2,
+    "country": "NG",
+    "merchant": "Electronics",
+    "customerAge": 43,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100177",
+    "amount": 2898.77,
+    "country": "BR",
+    "merchant": "GroceryStore",
+    "customerAge": 47,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100178",
+    "amount": 733.73,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 43,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100179",
+    "amount": 2338.46,
+    "country": "BR",
+    "merchant": "GroceryStore",
+    "customerAge": 51,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100180",
+    "amount": 2874.88,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 24,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100181",
+    "amount": 462.85,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 67,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100182",
+    "amount": 1740.51,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 59,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100183",
+    "amount": 457.12,
+    "country": "DE",
+    "merchant": "GroceryStore",
+    "customerAge": 37,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100184",
+    "amount": 227.2,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 41,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100185",
+    "amount": 2566.6,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 47,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100186",
+    "amount": 1957.25,
+    "country": "CA",
+    "merchant": "Electronics",
+    "customerAge": 27,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100187",
+    "amount": 2512.94,
+    "country": "GB",
+    "merchant": "Restaurant",
+    "customerAge": 59,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100188",
+    "amount": 2973.0,
+    "country": "NG",
+    "merchant": "Airline",
+    "customerAge": 41,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100189",
+    "amount": 1018.41,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 59,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100190",
+    "amount": 18245.97,
+    "country": "GB",
+    "merchant": "CryptoExchange",
+    "customerAge": 60,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100191",
+    "amount": 2750.66,
+    "country": "NG",
+    "merchant": "Electronics",
+    "customerAge": 60,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100192",
+    "amount": 258.73,
+    "country": "GB",
+    "merchant": "Airline",
+    "customerAge": 39,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100193",
+    "amount": 2217.63,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 59,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100194",
+    "amount": 10486.19,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 49,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100195",
+    "amount": 890.9,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 52,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100196",
+    "amount": 1856.0,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 29,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100197",
+    "amount": 11650.29,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 57,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100198",
+    "amount": 705.84,
+    "country": "FR",
+    "merchant": "Electronics",
+    "customerAge": 68,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100199",
+    "amount": 2841.65,
+    "country": "NG",
+    "merchant": "Restaurant",
+    "customerAge": 36,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100200",
+    "amount": 490.36,
+    "country": "DE",
+    "merchant": "GroceryStore",
+    "customerAge": 73,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100201",
+    "amount": 1116.78,
+    "country": "US",
+    "merchant": "Restaurant",
+    "customerAge": 51,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100202",
+    "amount": 822.01,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 45,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100203",
+    "amount": 2654.47,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 43,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100204",
+    "amount": 1127.86,
+    "country": "BR",
+    "merchant": "GroceryStore",
+    "customerAge": 71,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100205",
+    "amount": 10024.47,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 26,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100206",
+    "amount": 61.92,
+    "country": "NG",
+    "merchant": "GroceryStore",
+    "customerAge": 64,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100207",
+    "amount": 906.95,
+    "country": "IN",
+    "merchant": "GroceryStore",
+    "customerAge": 68,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100208",
+    "amount": 1501.99,
+    "country": "FR",
+    "merchant": "Airline",
+    "customerAge": 54,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100209",
+    "amount": 9.69,
+    "country": "US",
+    "merchant": "Electronics",
+    "customerAge": 29,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100210",
+    "amount": 2860.44,
+    "country": "CA",
+    "merchant": "Airline",
+    "customerAge": 50,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100211",
+    "amount": 1908.83,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 19,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100212",
+    "amount": 2200.16,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 65,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100213",
+    "amount": 1018.95,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 61,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100214",
+    "amount": 2435.44,
+    "country": "CA",
+    "merchant": "GroceryStore",
+    "customerAge": 47,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100215",
+    "amount": 8188.87,
+    "country": "NG",
+    "merchant": "GroceryStore",
+    "customerAge": 50,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100216",
+    "amount": 763.67,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 40,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100217",
+    "amount": 377.8,
+    "country": "IN",
+    "merchant": "Electronics",
+    "customerAge": 65,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100218",
+    "amount": 2921.3,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 69,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100219",
+    "amount": 241.39,
+    "country": "DE",
+    "merchant": "OnlineRetail",
+    "customerAge": 52,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100220",
+    "amount": 17879.3,
+    "country": "GB",
+    "merchant": "CryptoExchange",
+    "customerAge": 45,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100221",
+    "amount": 131.85,
+    "country": "DE",
+    "merchant": "Restaurant",
+    "customerAge": 45,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100222",
+    "amount": 176.79,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 50,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100223",
+    "amount": 2035.88,
+    "country": "BR",
+    "merchant": "CryptoExchange",
+    "customerAge": 33,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100224",
+    "amount": 101.99,
+    "country": "BR",
+    "merchant": "GroceryStore",
+    "customerAge": 41,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100225",
+    "amount": 6891.6,
+    "country": "FR",
+    "merchant": "CryptoExchange",
+    "customerAge": 35,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100226",
+    "amount": 7907.01,
+    "country": "DE",
+    "merchant": "CryptoExchange",
+    "customerAge": 25,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100227",
+    "amount": 647.64,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 49,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100228",
+    "amount": 1358.87,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 23,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100229",
+    "amount": 1652.24,
+    "country": "GB",
+    "merchant": "Electronics",
+    "customerAge": 28,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100230",
+    "amount": 368.48,
+    "country": "IN",
+    "merchant": "GroceryStore",
+    "customerAge": 68,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100231",
+    "amount": 1109.89,
+    "country": "US",
+    "merchant": "OnlineRetail",
+    "customerAge": 57,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100232",
+    "amount": 2152.22,
+    "country": "US",
+    "merchant": "Airline",
+    "customerAge": 44,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100233",
+    "amount": 227.12,
+    "country": "GB",
+    "merchant": "Airline",
+    "customerAge": 26,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100234",
+    "amount": 14560.14,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 51,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100235",
+    "amount": 2129.45,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 75,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100236",
+    "amount": 1907.0,
+    "country": "US",
+    "merchant": "Airline",
+    "customerAge": 37,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100237",
+    "amount": 2825.11,
+    "country": "BR",
+    "merchant": "GroceryStore",
+    "customerAge": 64,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100238",
+    "amount": 2476.58,
+    "country": "DE",
+    "merchant": "GroceryStore",
+    "customerAge": 59,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100239",
+    "amount": 1252.68,
+    "country": "DE",
+    "merchant": "OnlineRetail",
+    "customerAge": 58,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100240",
+    "amount": 738.41,
+    "country": "US",
+    "merchant": "OnlineRetail",
+    "customerAge": 47,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100241",
+    "amount": 1249.79,
+    "country": "BR",
+    "merchant": "Airline",
+    "customerAge": 27,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100242",
+    "amount": 2964.13,
+    "country": "BR",
+    "merchant": "Electronics",
+    "customerAge": 66,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100243",
+    "amount": 9076.5,
+    "country": "US",
+    "merchant": "Electronics",
+    "customerAge": 27,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100244",
+    "amount": 1257.31,
+    "country": "BR",
+    "merchant": "Restaurant",
+    "customerAge": 70,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100245",
+    "amount": 482.23,
+    "country": "DE",
+    "merchant": "Restaurant",
+    "customerAge": 74,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100246",
+    "amount": 12258.09,
+    "country": "BR",
+    "merchant": "CryptoExchange",
+    "customerAge": 55,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100247",
+    "amount": 2647.61,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 52,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100248",
+    "amount": 2647.95,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 41,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100249",
+    "amount": 587.99,
+    "country": "IN",
+    "merchant": "Airline",
+    "customerAge": 50,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100250",
+    "amount": 2967.33,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 24,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100251",
+    "amount": 1675.71,
+    "country": "NG",
+    "merchant": "Electronics",
+    "customerAge": 56,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100252",
+    "amount": 6877.76,
+    "country": "GB",
+    "merchant": "CryptoExchange",
+    "customerAge": 47,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100253",
+    "amount": 987.26,
+    "country": "DE",
+    "merchant": "OnlineRetail",
+    "customerAge": 57,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100254",
+    "amount": 1531.59,
+    "country": "CA",
+    "merchant": "Airline",
+    "customerAge": 48,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100255",
+    "amount": 2939.79,
+    "country": "CA",
+    "merchant": "Airline",
+    "customerAge": 64,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100256",
+    "amount": 1968.49,
+    "country": "CA",
+    "merchant": "Restaurant",
+    "customerAge": 32,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100257",
+    "amount": 1888.93,
+    "country": "FR",
+    "merchant": "OnlineRetail",
+    "customerAge": 27,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100258",
+    "amount": 334.14,
+    "country": "NG",
+    "merchant": "GroceryStore",
+    "customerAge": 27,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100259",
+    "amount": 2326.04,
+    "country": "CA",
+    "merchant": "Restaurant",
+    "customerAge": 65,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100260",
+    "amount": 1684.86,
+    "country": "IN",
+    "merchant": "Restaurant",
+    "customerAge": 42,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100261",
+    "amount": 1030.27,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 64,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100262",
+    "amount": 743.32,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 37,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100263",
+    "amount": 1469.56,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 68,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100264",
+    "amount": 1631.86,
+    "country": "GB",
+    "merchant": "Restaurant",
+    "customerAge": 40,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100265",
+    "amount": 2143.85,
+    "country": "IN",
+    "merchant": "Electronics",
+    "customerAge": 34,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100266",
+    "amount": 817.04,
+    "country": "FR",
+    "merchant": "Airline",
+    "customerAge": 24,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100267",
+    "amount": 1595.47,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 44,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100268",
+    "amount": 20186.09,
+    "country": "NG",
+    "merchant": "GroceryStore",
+    "customerAge": 28,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100269",
+    "amount": 1429.72,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 36,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100270",
+    "amount": 20143.22,
+    "country": "GB",
+    "merchant": "CryptoExchange",
+    "customerAge": 20,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100271",
+    "amount": 2759.31,
+    "country": "DE",
+    "merchant": "Restaurant",
+    "customerAge": 49,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100272",
+    "amount": 32.76,
+    "country": "DE",
+    "merchant": "Airline",
+    "customerAge": 39,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100273",
+    "amount": 1575.33,
+    "country": "IN",
+    "merchant": "Restaurant",
+    "customerAge": 50,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100274",
+    "amount": 995.4,
+    "country": "GB",
+    "merchant": "OnlineRetail",
+    "customerAge": 63,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100275",
+    "amount": 888.6,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 57,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100276",
+    "amount": 264.78,
+    "country": "IN",
+    "merchant": "OnlineRetail",
+    "customerAge": 26,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100277",
+    "amount": 786.05,
+    "country": "DE",
+    "merchant": "Electronics",
+    "customerAge": 39,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100278",
+    "amount": 788.35,
+    "country": "US",
+    "merchant": "Electronics",
+    "customerAge": 60,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100279",
+    "amount": 2059.79,
+    "country": "DE",
+    "merchant": "Restaurant",
+    "customerAge": 67,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100280",
+    "amount": 2822.2,
+    "country": "IN",
+    "merchant": "Electronics",
+    "customerAge": 26,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100281",
+    "amount": 1819.19,
+    "country": "FR",
+    "merchant": "CryptoExchange",
+    "customerAge": 48,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100282",
+    "amount": 1789.46,
+    "country": "BR",
+    "merchant": "OnlineRetail",
+    "customerAge": 51,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100283",
+    "amount": 189.97,
+    "country": "GB",
+    "merchant": "Airline",
+    "customerAge": 54,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100284",
+    "amount": 1328.31,
+    "country": "US",
+    "merchant": "OnlineRetail",
+    "customerAge": 49,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100285",
+    "amount": 171.63,
+    "country": "CA",
+    "merchant": "GroceryStore",
+    "customerAge": 54,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100286",
+    "amount": 927.97,
+    "country": "FR",
+    "merchant": "GroceryStore",
+    "customerAge": 18,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100287",
+    "amount": 11235.11,
+    "country": "IN",
+    "merchant": "GroceryStore",
+    "customerAge": 22,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": true
+  },
+  {
+    "transactionId": "TX100288",
+    "amount": 410.61,
+    "country": "NG",
+    "merchant": "OnlineRetail",
+    "customerAge": 44,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100289",
+    "amount": 2751.76,
+    "country": "GB",
+    "merchant": "Electronics",
+    "customerAge": 60,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "GB"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100290",
+    "amount": 539.53,
+    "country": "FR",
+    "merchant": "Airline",
+    "customerAge": 64,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100291",
+    "amount": 2935.58,
+    "country": "NG",
+    "merchant": "Airline",
+    "customerAge": 45,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100292",
+    "amount": 1041.75,
+    "country": "US",
+    "merchant": "Electronics",
+    "customerAge": 64,
+    "deviceRisk": "HIGH",
+    "customer": {
+      "country": "US"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100293",
+    "amount": 1846.7,
+    "country": "FR",
+    "merchant": "Restaurant",
+    "customerAge": 33,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "FR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100294",
+    "amount": 1342.09,
+    "country": "CA",
+    "merchant": "OnlineRetail",
+    "customerAge": 33,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100295",
+    "amount": 655.72,
+    "country": "DE",
+    "merchant": "Restaurant",
+    "customerAge": 50,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "DE"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100296",
+    "amount": 1730.45,
+    "country": "BR",
+    "merchant": "Airline",
+    "customerAge": 70,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "BR"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100297",
+    "amount": 2957.16,
+    "country": "CA",
+    "merchant": "Airline",
+    "customerAge": 35,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "CA"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100298",
+    "amount": 2206.96,
+    "country": "IN",
+    "merchant": "GroceryStore",
+    "customerAge": 53,
+    "deviceRisk": "MEDIUM",
+    "customer": {
+      "country": "IN"
+    },
+    "is_fraud": false
+  },
+  {
+    "transactionId": "TX100299",
+    "amount": 1931.73,
+    "country": "NG",
+    "merchant": "Electronics",
+    "customerAge": 62,
+    "deviceRisk": "LOW",
+    "customer": {
+      "country": "NG"
+    },
+    "is_fraud": false
+  }
+]

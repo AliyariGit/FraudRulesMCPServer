@@ -25,7 +25,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for how the pieces fit together.
 | Directory | Stack | Status |
 |---|---|---|
 | [`python-mcp-server/`](python-mcp-server/) | Python, FastAPI, MCP SDK, PostgreSQL, Docker | Complete |
-| `java-mcp-server/` | Java, Spring Boot, Spring AI MCP, PostgreSQL, Docker | Planned |
+| [`java-mcp-server/`](java-mcp-server/) | Java 21, Spring Boot 4, Spring AI MCP, PostgreSQL, Docker | Complete |
 
 Both implementations expose the same 7 MCP tools and condition-tree rule format,
 so they're directly comparable.
@@ -72,6 +72,32 @@ Copy `python-mcp-server/.env.example` to `.env` and set `ANTHROPIC_API_KEY` to u
 cd python-mcp-server
 python -m pytest tests/            # unit + DB integration tests
 python client_smoke_test.py        # exercises all 7 tools over real MCP stdio
+```
+
+## Quick start (Java implementation)
+
+```bash
+cd java-mcp-server
+
+# start Postgres (separate instance, port 5433, so both stacks can run at once)
+docker compose up -d
+
+# option A: run as an MCP stdio server (for Claude Desktop / Cursor / MCP Inspector)
+./mvnw spring-boot:run -Dspring-boot.run.profiles=stdio
+
+# option B: run the HTTP + dashboard wrapper (default profile)
+./mvnw spring-boot:run
+# then open http://127.0.0.1:8081/ for the rules/evaluations dashboard
+```
+
+Set `ANTHROPIC_API_KEY` in your environment to use `generate_rule_from_text`.
+Flyway applies the schema and seeds the 5 starter rules automatically on first run.
+
+### Verify it end-to-end
+
+```bash
+cd java-mcp-server
+./mvnw test              # unit tests (engine/migration) + MockMvc integration tests
 ```
 
 ## Example
